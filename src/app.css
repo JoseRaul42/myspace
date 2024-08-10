@@ -1,0 +1,156 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.youtube-video {
+    position: absolute;
+    top: 5px; /* Distance from the top of the screen */
+    right: 5px; /* Distance from the right side of the screen */
+    width: 210px; /* Adjust the width as needed */
+    height: 70px; /* Adjust the height as needed */
+    border: none;
+    z-index: 1000; /* Ensures the video is on top of other content */
+}
+
+.user-profile {
+    position: absolute;
+    top: 20px; /* Distance from the top of the screen */
+    left: 20px; /* Distance from the left side of the screen */
+    width: 280px; /* Adjust the width of the profile picture */
+    height: 280px; /* Adjust the height of the profile picture */
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid white; /* Optional: add a white border */
+    z-index: 1000; /* Ensures the profile picture is on top of other content */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+
+.aboutme {
+    position: absolute; /* or use relative if you want it to flow with the content */
+    top: 350px; /* Adjust this to position it above the .projects section */
+    left: 50%; /* Center the section horizontally */
+    transform: translateX(-50%); /* Adjusts centering */
+    background-color: rgba(255, 255, 255, 0.166); /* Light background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow for depth */
+    z-index: 2; /* Ensure it appears above .projects */
+    width: 80%;
+}
+
+.aboutme h2, .aboutme p {
+    margin-bottom: 15px;
+    color: rgb(134, 2, 2); /* Matches your existing content color */
+    text-shadow: 2px 2px 4px #000; /* Adds the same shadow as .projects */
+}
+
+.aboutme p{
+    margin: 5px 0 0;
+    font-size: 0.95em;
+    color: #dbcfcf;
+}
+
+.aboutme h5{
+    margin: 5px 0 0;
+    font-size: 0.95em;
+    text-shadow: 2px 2px 4px #000; /* Adds the same shadow as .projects */
+    color: #dbcfcf;
+}
+
+
+.projects {
+    margin-top: 450px;
+    background-color: rgba(255, 255, 255, 0.166); /* Light background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow for depth */
+}
+
+.projects h2 {
+    margin-bottom: 15px;
+    color: rgb(134, 2, 2); /* Matches your existing content color */
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.projects ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+.projects li {
+    margin-bottom: 15px;
+}
+
+.projects h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.projects p {
+    margin: 5px 0 0;
+    font-size: 0.95em;
+    color: #dbcfcf;
+}
+
+.iframe {
+    margin-top: 20px;
+    border: none;
+    width: 560px;
+    height: 315px;
+  }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: rgb(134, 2, 2);
+    text-shadow: 2px 2px 4px #000;
+    text-decoration-line:rgb(134, 2, 2) ;
+  }
+
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Optional: background for better visibility */
+    color: white; /* Optional: text color */
+    padding: 10px 0;
+}
+
+
+/* Media Query for mobile devices */
+@media (max-width: 600px) {
+    .youtube-video, .user-profile, .iframe {
+        position: relative;
+        width: 90%;
+        height: auto;
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 10px auto;
+    }
+
+    .aboutme, .projects {
+        position: relative;
+        width: 90%;
+        padding: 15px;
+        top: auto;
+        left: 5%;
+        transform: none;
+    }
+
+    .content, footer {
+        position: relative;
+        width: 100%;
+        left: 0;
+        transform: none;
+    }
+}
