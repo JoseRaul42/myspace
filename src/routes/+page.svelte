@@ -1,5 +1,6 @@
 <script>
     import { Github } from 'lucide-svelte';
+    let screenWidth;
     let videoUrl = "https://www.youtube.com/embed/H58vbez_m4E?autoplay=1&loop=1&playlist=H58vbez_m4E"; // Replace with your desired YouTube video URL
 </script>
   
@@ -26,23 +27,7 @@
       }
     }
   
-    .content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      color: rgb(134, 2, 2);
-      text-shadow: 2px 2px 4px #000;
-      text-decoration-line:rgb(134, 2, 2) ;
-    }
-  
-    iframe {
-      margin-top: 20px;
-      border: none;
-      width: 560px;
-      height: 315px;
-    }
+
   </style>
   
   <div class="background"></div>
@@ -51,15 +36,20 @@
 
 
     
-    <iframe 
-      src={videoUrl} 
-      title="YouTube video player" 
-      class="youtube-video"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
 
 
+
+
+<body>
+  
+
+  <iframe 
+  src={videoUrl} 
+  title="YouTube video player" 
+  class="youtube-video"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
 
     <div class="aboutme">
         <h2 style="font-weight: bold">About Me</h2>
@@ -67,53 +57,45 @@
         <h5>T shaped programmer with an expertise in SQL, Databases, and developing ETL pipelines. I have been programming as a hobby since 2018 and my goal is to simply get better at being able to manifest my ideas into useful applications and programs.</h5>
     </div>
 
-    <div class="content">
 
 
-       <!-- New Section for GitHub Projects -->
-       <div class="projects">
-        <h2>
+
+    
+        <div class="projects">
+       <h2>
             Github Projects
             <a href="https://github.com/joseraul42" target="_blank" style="margin-left: 10px; display: inline-flex; align-items: center; text-decoration: none; color: inherit;">
                 <span style="display: inline-flex; align-items: center; justify-content: center; width: 50px; height: 50px; border-radius: 50%; background-color: #333;">
                     <Github size="24" color="white" />
                 </span>
             </a>
-        </h2>
-        <ul>
-            <li>
-                <h3>
+        </h2> 
+   
+              <h3>
                     <a href="https://github.com/joseraul42/Aegis" target="_blank" style="text-decoration: none; color: inherit;">
                         Aegis
                     </a>
                 </h3>
                 <p>Working on this project taught me a lot about efficiently parsing JSON from APIs, which was crucial for interpreting data from my local LLM instance. I developed APIs in OpenAI format to make it possible for my console application to communicate with my local LLM server. I also learned how to optimize LLM performance on my local hardware to speed up query processing. Additionally, setting up and fine-tuning my Snort Intrusion Detection System (IDS) rules helped me reduce false positives. I also used Docker to easily set up a Milvus standalone database to connect with my application. All of these steps were necessary to accomplish my goal of being able to generate real-time reports leveraging AI on Alert Logs files and ask questions about the alert logs in natural language.</p>
-            </li>
-            <li>
+        
                 <h3>
                     <a href="https://github.com/joseraul42/myspace" target="_blank" style="text-decoration: none; color: inherit;">
                     MySpace
                     </a>
                 </h3>
                 <p>This was a fun weekend project, inspired by my past experiences customizing my Myspace page during an earlier era of social media. It was developed using Svelte, my preferred front-end framework.</p>
-            </li>
-            <li>
+           
                 <h3>
                     <a href="https://github.com/joseraul42/DataRecovery" target="_blank" style="text-decoration: none; color: inherit;">
                     DataRecovery
                     </a>
                 </h3>
                 <p>Data Recovery is a Python-based command-line tool designed to recover deleted files from various storage devices. Utilizing byte-level scanning, it identifies files based on their unique signatures, offering a chance to restore files that have been inadvertently deleted or lost.</p>
-            </li>
-            <!-- Add more projects as needed -->
-        </ul>
-    </div>
+         
+    </div> 
 
-
-    <footer>
+  </body>
+     <!-- <footer>
         &copy; Powered by Me
-    </footer>
+    </footer>  -->
     
-
-  </div>
-  
