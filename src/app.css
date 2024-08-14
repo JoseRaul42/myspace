@@ -11,7 +11,8 @@ body {
     top: 0.23442%; /* Distance from the top of the screen */
     right: 1%; /* Distance from the right side of the screen */
     width: 50vw; /* Adjust the width as needed */
-    height: 30vh; /* Adjust the height as needed */
+   max-height: 30vh; /* Adjust the height as needed */
+   min-height: 30vh;
     border: none;
     z-index: 1000; /* Ensures the video is on top of other content */
     margin: 2vw;
