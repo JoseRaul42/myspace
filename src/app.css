@@ -2,6 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+body {
+    font-size: 16px; /* Base font size */
+}
+
 .youtube-video {
     position: absolute;
     top: 0.23442%; /* Distance from the top of the screen */
@@ -26,78 +30,96 @@
     object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 
-
 .iframe {
     margin-top: 20px;
     border: none;
     width: 50vw;
     height: 30vh;
     position: fixed;
-  }
+}
 
-
- .aboutme {
+.aboutme {
     position: relative; 
     margin: 15vh auto 0;
     background-color: rgba(255, 255, 255, 0.166);
     padding: 2vw;
-    border-radius: 10px;
+    border-radius: 2px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     color: rgb(134, 2, 2); 
-    text-shadow: 2px 2px 4px #000;
-    z-index: 2; 
+    text-shadow: 2% 2% 4% #000;
     width: 80%;
-    min-height: 100%; 
-} 
+}
 
- .aboutme h2 {
+.aboutme h2 {
     position: relative;
     margin-bottom: 15px;
     color: rgb(134, 2, 2); 
     text-shadow: 2px 2px 4px #000;
-    font-size: 2dvw;
-}  
-
-.aboutme p{
-    position: relative;
-    margin: 5px 0 0;
-    font-size: 1.3dvw;
-    color: #dbcfcf;
-    margin: 0; 
-    padding: 0;
+    font-size: 3rem; /* Responsive font size */
 }
 
- .aboutme h5{
+.aboutme p {
+    position: relative;
+    margin: 5px 0 0;
+    font-size: 2rem; /* Responsive font size */
+    color: #dbcfcf;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.aboutme h5 {
     position: relative;
     margin: 0; 
     padding: 0; 
-    font-size: 0.95em;
-    max-width: 100%;
+    font-size: 1.5rem; /* Responsive font size */
     text-shadow: 2% 2% 4% #000; 
     color: #dbcfcf;
-    font-size: 1dvw;
     overflow: hidden;
-}  
-
+}
 
 .projects {
     position: relative;
-    justify-content: center;
-     margin-top: 50vh auto 0; 
+    margin-top: 50vh auto 0; 
     background-color: rgba(255, 255, 255, 0.166);
-    padding: 10vw;
+    padding: 5vw;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-.projects a{
+.projects h2 {
+    position: relative;
+    justify-content: left;
+    margin-bottom: 15px; 
+    color: rgb(134, 2, 2);
+    text-shadow: 2px 2px 4px #000; 
+    font-size: 4rem; /* Responsive font size */
+    font-weight: bolder; 
+}
+
+.projects h3 {
+    position: relative;
+    margin: 0;
+    font-size: 2rem; /* Responsive font size */
+    font-weight: bold;
+    color: rgb(134, 2, 2); 
+    text-shadow: 2px 2px 4px #000;
+}
+
+.projects p {
+    position: relative;
+    justify-content: left;
+    font-size: 1.5rem; /* Responsive font size */
+    color: #dbcfcf;
+    overflow: hidden;
+}
+
+.projects a {
     position: relative;
     margin: 5px 0 0;
-    font-size: 3.3dvw;
+    font-size: 2.5rem; /* Responsive font size */
     color: #dbcfcf;
-    margin: 0; 
     padding: 0;
 }
+
 
 
 .projects h2 {
@@ -109,8 +131,8 @@
     font-size: 8vw;
     overflow: hidden;
     font-weight: bolder; 
+    max-width: auto;
 }
-
 
 
 
@@ -122,15 +144,18 @@
     font-weight: bold;
     color: rgb(134, 2, 2); 
     text-shadow: 2px 2px 4px #000; 
+    max-width: auto;
 }
 
 .projects p {
     position: relative;
     justify-content: left;
-    margin: 5px 0 0;
     font-size: 2dvw;
     color: #dbcfcf;
-}
+    max-width: auto;
+    flex-flow: wrap;
+    overflow: hidden;
+} 
 
 
 
@@ -140,11 +165,11 @@
     width: 560px;
     height: 315px;
     position: fixed;
-  }
+  } */
 
 
 
-  footer {
+footer {
     position: fixed;
     bottom: 0;
     left: 50%;
@@ -155,83 +180,3 @@
     color: white; 
     padding: 1vh 0;
 }
-
-
-
-/* @media (max-width: 1231px) {
-      .youtube-video, .iframe {
-        position: relative;
-        justify-content: right;
-        width: 90%;
-        height: auto;
-        top: auto;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 10px auto;
-    } 
-     .user-profile {
-        position: relative;
-        justify-content: left;
-        width: 90%;
-        height: auto;
-        top: auto;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 10px auto;
-    }  
-
-
-
-
-     .aboutme, .projects {
-        position: relative;
-        justify-content: center;
-        width: 90%;
-        padding: 15px;
-        top: auto;
-        height: auto;
-        width: auto;
-        left: 5%;
-        transform: none;
-    } 
-
-    .footer {
-        position: fixed;
-        width: 100%;
-        left: 0;
-        transform: none;
-    }
-}
-
-
- @media (min-width: 1231px) {
-    .youtube-video, .user-profile, .iframe {
-        position: relative;
-        width: 90%;
-        height: auto;
-        top: auto;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 10px auto;
-    } 
-
-    .aboutme, .projects {
-        position: relative;
-        width: 90%;
-        padding: 15px;
-        top: auto;
-        height: auto;
-        width: auto;
-        left: 5%;
-        transform: none;
-    }
-
-    .footer {
-        position: fixed;
-        top: auto;
-        height: auto;
-        width: auto;
-        left: 0;
-        transform: none;
-    }
-}   */
