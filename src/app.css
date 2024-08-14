@@ -21,7 +21,7 @@ body {
 .user-profile {
     position: relative;
     justify-content: left;
-    top: 20%; /* Distance from the top of the screen */
+    margin-top: 5%;
     left: 2%; /* Distance from the left side of the screen */
     width: 20vw; /* Adjust the width of the profile picture */
     height: 20vw; /* Adjust the height of the profile picture */
@@ -79,7 +79,7 @@ body {
 
 .projects {
     position: relative;
-    margin-top: 50vh auto 0; 
+    margin-top: 60vh auto 0; 
     background-color: rgba(255, 255, 255, 0.166);
     padding: 5vw;
     border-radius: 10px;
