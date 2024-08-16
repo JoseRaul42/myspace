@@ -1,5 +1,6 @@
 <script>
   import { Github } from 'lucide-svelte';
+  import {Linkedin} from 'lucide-svelte';
   let screenWidth;
   let videoUrl = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&loop=1&playlist=dQw4w9WgXcQ"; // Replace with your desired YouTube video URL
 </script>
@@ -49,9 +50,15 @@ body {
 </iframe>
 
 <div class="aboutme">
-  <h2 style="font-weight: bold">About Me</h2>
+  <h2 style="font-weight: bold">About Me
+    <a href="https://www.linkedin.com/in/jose-valois-29a120213/" target="_blank" style="margin-left: 10px; display: inline-flex; align-items: center; text-decoration: none; color: inherit;">
+      <span style="display: inline-flex; align-items: center; justify-content: center; width: 50px; height: 50px; border-radius: 9%; background-color: #0077B5;">
+        <Linkedin size="24" color="white" />
+      </span>
+    </a>
+  </h2>
   <p>Self Taught Developer💻👾💾</p>
-  <h5>T shaped programmer with an expertise in SQL, Databases, and developing ETL pipelines. I have been programming and making my ideas come to life through code since 2018. Currently my major areas of interest in my free time are testing the use cases of building applications around Locally hosted LLMs on consumer grade hardware, following Cybersecurity trends, and playing Elden Ring. </h5>
+  <h5>Full Stack Developer with an expertise in SQL, Databases, and developing ETL pipelines. I have been programming and making my ideas come to life through code since 2018. Currently my major areas of interest in my free time are testing the use cases of building applications around Locally hosted LLMs on consumer grade hardware, following Cybersecurity trends, and playing Elden Ring. </h5>
 </div>
 
 <div class="projects">
