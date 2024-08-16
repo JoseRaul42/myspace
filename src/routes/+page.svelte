@@ -51,7 +51,7 @@ body {
 <div class="aboutme">
   <h2 style="font-weight: bold">About Me</h2>
   <p>Self Taught Developer💻👾💾</p>
-  <h5>T shaped programmer with an expertise in SQL, Databases, and developing ETL pipelines. I have been programming and making my ideas come to life through code since 2018. Currently my major areas of interest in my free time are testing the use cases of building applications around Locally hosted LLMs on consumer grade hardware, following Cybersecurity trends, and playing Elden Ring. </h5>
+  <h5>Full Stack Developer with an expertise in SQL, Databases, and developing ETL pipelines. I have been programming and making my ideas come to life through code since 2018. Currently my major areas of interest in my free time are testing the use cases of building applications around Locally hosted LLMs on consumer grade hardware, following Cybersecurity trends, and playing Elden Ring. </h5>
 </div>
 
 <div class="projects">
