@@ -2,7 +2,7 @@
   import { Github } from 'lucide-svelte';
   import {Linkedin} from 'lucide-svelte';
   let screenWidth;
-  let videoUrl = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&loop=1&playlist=dQw4w9WgXcQ"; // Replace with your desired YouTube video URL
+  let videoUrl = "https://www.youtube.com/embed/1V_xRb0x9aw?autoplay=1&loop=1&playlist=1V_xRb0x9aw"; // Replace with your desired YouTube video URL
 </script>
 
 <style>
