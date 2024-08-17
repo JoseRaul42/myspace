@@ -58,7 +58,7 @@ body {
     </a>
   </h2>
   <p>Self Taught Developer💻👾💾</p>
-  <h5>Full Stack Developer with expertise in SQL, databases, and developing ETL pipelines. I have been programming and bringing my ideas to life through code since 2018. Adept at developing with SQL, C#, .NET, JavaScript, and Python, I have a proven track record of crafting scalable data solutions and backend software application support. My experience includes completing complex data-driven projects while applying engineering best practices to develop high-quality production implementations and data conversions. Currently, my major areas of interest in my free time are testing the use cases of building applications around locally hosted LLMs on consumer-grade hardware, following cybersecurity trends, and playing Elden Ring.</h5>
+  <h5>Full Stack engineer with expertise in SQL, databases, and developing ETL pipelines. I have been programming and bringing my ideas to life through code since 2018. Adept at developing with SQL, C#, .NET, JavaScript, and Python, I have a proven track record of crafting scalable data solutions and backend software application support. My experience includes completing complex data-driven projects while applying engineering best practices to develop high-quality production implementations and data conversions. Currently, my major areas of interest in my free time are testing the use cases of building applications around locally hosted LLMs on consumer-grade hardware, following cybersecurity trends, and playing Elden Ring.<br> Actively looking for data focused engineering roles and SWE roles on forward thinking teams.</h5>
 </div>
 
 <div class="projects">
