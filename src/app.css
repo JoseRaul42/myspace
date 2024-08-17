@@ -80,7 +80,9 @@ body {
     background-color: rgba(255, 255, 255, 0.166);
     padding: 5vw;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px; 
+     
 }
 
 .projects h2 {
@@ -162,13 +164,12 @@ body {
 
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    z-index: 1;
+    background-color: #333; /* Set a background color for visibility */
+    color: white;
     text-align: center;
+    padding: 20px 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8); 
-    color: white; 
-    padding: 1vh 0;
+    bottom: 0;
 }

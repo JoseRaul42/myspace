@@ -52,13 +52,13 @@ body {
 <div class="aboutme">
   <h2 style="font-weight: bold">About Me
     <a href="https://www.linkedin.com/in/jose-valois-29a120213" target="_blank" style="margin-left: 10px; display: inline-flex; align-items: center; text-decoration: none; color: inherit;">
-      <span style="display: inline-flex; align-items: center; justify-content: center; width: 50px; height: 50px; border-radius: 9%; background-color: #0077B5;">
-        <Linkedin size="24" color="white" />
+      <span style="display: inline-flex; align-items: center; justify-content: center; width: 50px; height: 50px;  border: 0.1px solid white; border-radius: 9%; background-color: rgba(56, 38, 250, 0.8);">
+        <Linkedin size="18" color="white" style="fill: white;"  />
       </span>
     </a>
   </h2>
   <p>Self Taught Developer💻👾💾</p>
-  <h5>Full Stack Developer with an expertise in SQL, Databases, and developing ETL pipelines. I have been programming and making my ideas come to life through code since 2018. Currently my major areas of interest in my free time are testing the use cases of building applications around Locally hosted LLMs on consumer grade hardware, following Cybersecurity trends, and playing Elden Ring. </h5>
+  <h5>Full Stack Developer with expertise in SQL, databases, and developing ETL pipelines. I have been programming and bringing my ideas to life through code since 2018. Adept at developing with SQL, C#, .NET, JavaScript, and Python, I have a proven track record of crafting scalable data solutions and backend software application support. My experience includes completing complex data-driven projects while applying engineering best practices to develop high-quality production implementations and data conversions. Currently, my major areas of interest in my free time are testing the use cases of building applications around locally hosted LLMs on consumer-grade hardware, following cybersecurity trends, and playing Elden Ring.</h5>
 </div>
 
 <div class="projects">
@@ -66,7 +66,7 @@ body {
     Github Projects
     <a href="https://github.com/joseraul42" target="_blank" style="margin-left: 10px; display: inline-flex; align-items: center; text-decoration: none; color: inherit;">
       <span style="display: inline-flex; align-items: center; justify-content: center; width: 50px; height: 50px; border-radius: 50%; background-color: #333;">
-        <Github size="24" color="white" />
+        <Github size="24" color="white"  />
       </span>
     </a>
   </h2> 
@@ -104,5 +104,5 @@ body {
 </body>
 
 <footer>
-&copy; Powered by Me
+<h1>&copy; Powered by Me</h1>
 </footer>
