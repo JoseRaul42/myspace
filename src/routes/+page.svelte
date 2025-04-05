@@ -2,7 +2,7 @@
   import { Github } from 'lucide-svelte';
   import {Linkedin} from 'lucide-svelte';
   let screenWidth;
-  let videoUrl = "https://www.youtube.com/embed/qORYO0atB6g?autoplay=1&loop=1&playlist=qORYO0atB6g"; // Replace with your desired YouTube video URL
+  let videoUrl = "https://www.youtube.com/embed/videoseries?si=RTOfLe2PF0c9TXVm&list=PL6DxpDO3tvw2IyiNr0rGwX4hhp5FhJy8a&autoplay=1"; // Replace with your desired YouTube video URL
 </script>
 
 <style>
@@ -66,7 +66,7 @@ body {
       Adept at working with SQL, C#, .NET, Powershell, and AzureDevOps. I’ve successfully delivered scalable data solutions and backend software application support. My experience was built delivering complex, data-driven projects where I applied engineering best practices to deliver production-ready implementations and data conversions.
     </h5>
     <h5>
-      In my free time, I explore use cases for locally hosted LLMs on consumer-grade hardware for edge computing, follow cybersecurity trends, and play Marvel Rivals. I'm actively seeking data-focused engineering or software engineering roles on forward-thinking teams.
+      In my free time, I enjoy exploring use cases for locally hosted LLMs on consumer-grade hardware for edge computing through personal projects, I enjoy discovering new music, and playing Marvel Rivals. I'm actively seeking data-focused engineering or software engineering roles on forward-thinking teams.
     </h5>
   </article>
   
