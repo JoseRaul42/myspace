@@ -58,7 +58,18 @@ body {
     </a>
   </h2>
   <p>Self Taught Developer💻👾💾</p>
-  <h5>Full Stack engineer with expertise in SQL, databases, and developing ETL pipelines. I have been programming and bringing my ideas to life through code since 2018. Adept at developing with SQL, C#, .NET, JavaScript, and Python, I have a proven track record of crafting scalable data solutions and backend software application support. My experience includes completing complex data-driven projects while applying engineering best practices to develop high-quality production implementations and data conversions. Currently, my major areas of interest in my free time are testing the use cases of building applications around locally hosted LLMs on consumer-grade hardware, following cybersecurity trends, and playing Marvel Rivals.<br> Actively looking for data focused engineering roles and SWE roles on forward thinking teams.</h5>
+  <article class="space-y-12">
+    <h5>
+      I’m a Full Stack Engineer with expertise in SQL, databases, and developing ETL pipelines. I’ve been programming and bringing my ideas to life through code since 2018.
+    </h5>
+    <h5>
+      Adept at working with SQL, C#, .NET, Powershell, and AzureDevOps. I’ve successfully delivered scalable data solutions and backend software application support. My experience was built delivering complex, data-driven projects where I applied engineering best practices to deliver production-ready implementations and data conversions.
+    </h5>
+    <h5>
+      In my free time, I explore use cases for locally hosted LLMs on consumer-grade hardware for edge computing, follow cybersecurity trends, and play Marvel Rivals. I'm actively seeking data-focused engineering or software engineering roles on forward-thinking teams.
+    </h5>
+  </article>
+  
 </div>
 
 <div class="projects">
